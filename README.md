@@ -1,6 +1,6 @@
 # Laravel 6 試算表
 
-匯入或匯出文字 (.xls 或 .xlsx) 檔案，匯出資料可以儲存成可以用 Microsoft Excel 或協力廠商應用程式開啟檔案。
+匯入或匯出文字 (.csv 或 .xls 或 .xlsx) 檔案，匯出資料可以儲存成可以用 Microsoft Excel 或協力廠商應用程式開啟檔案。
 
 ## 使用方式
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
@@ -31,3 +31,6 @@ $ php artisan migrate
 
 ![](https://i.imgur.com/Vll2CxU.png)
 > 將資料匯出到瀏覽器就會提示要下載檔案
+
+![](https://i.imgur.com/DMZnTSC.png)
+> 逗號分隔值文字檔（.csv），其中逗號字元（，）通常會分隔每個文字欄位
