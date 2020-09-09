@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UsersController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('users/import/','UsersController@import');
-Route::get('users/export/', 'UsersController@export');
+Route::get('users/import/', [UsersController::class, 'import']);
+Route::get('users/export/', [UsersController::class, 'export']);

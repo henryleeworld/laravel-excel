@@ -4,7 +4,7 @@ namespace App\Exports;
 
 use Maatwebsite\Excel\Concerns\FromCollection;
 use Maatwebsite\Excel\Concerns\WithHeadings;
-use App\User;
+use App\Models\User;
 
 class UsersExport implements FromCollection, WithHeadings
 {

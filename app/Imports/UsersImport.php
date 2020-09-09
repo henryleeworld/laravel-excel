@@ -7,7 +7,7 @@ use Maatwebsite\Excel\Concerns\ToModel;
 use Maatwebsite\Excel\Concerns\WithHeadingRow;
 use Maatwebsite\Excel\Concerns\WithBatchInserts;
 use Maatwebsite\Excel\Concerns\WithChunkReading;
-use App\User;
+use App\Models\User;
 
 class UsersImport implements ToModel, WithHeadingRow, WithBatchInserts, WithChunkReading
 {
