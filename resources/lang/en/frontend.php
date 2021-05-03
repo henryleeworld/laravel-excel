@@ -34,12 +34,12 @@ return [
             'sponsor'                                                  => 'Sponsor',
             'telescope'                                                => 'Telescope',
             'vapor'                                                    => 'Vapor',
-            'vibrant_ecosystem'                                        => 'Vibrant 生態系統',
+            'vibrant_ecosystem'                                        => 'Vibrant Ecosystem',
         ],
     ],
     'home' => [
-        'title' => 'Home',    ],
-
+        'title' => 'Home',
+    ],
     'login' => [
         'title' => 'Login',
     ],

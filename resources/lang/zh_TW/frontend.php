@@ -34,12 +34,12 @@ return [
             'sponsor'                                                  => '贊助',
             'telescope'                                                => 'Telescope',
             'vapor'                                                    => 'Vapor',
-            'vapor'                                                    => 'Vibrant 生態系統',
+            'vibrant_ecosystem'                                        => 'Vibrant 生態系統',
         ],
     ],
     'home' => [
-        'title' => '首頁',    ],
-
+        'title' => '首頁',
+    ],
     'login' => [
         'title' => '登入',
     ],
