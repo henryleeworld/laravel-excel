@@ -12,7 +12,7 @@ class UsersController extends Controller
     {
         Excel::import(new UsersImport, public_path('uploads/users.xlsx'));
         
-        return redirect('/')->with('success', 'All good!');
+        return redirect('/')->with('success', __('All good!'));
     }
 
     public function export() 

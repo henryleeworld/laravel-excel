@@ -20,12 +20,12 @@ class UsersExport implements FromCollection, WithHeadings
     public function headings(): array
     {
         return [
-            '編號',
-            '姓名', 
-            '電子郵件',
-            '密碼',
-            '建立時間',
-            '更新時間'
+            __('ID'),
+            __('Name'), 
+            __('Email'),
+            __('Password'),
+            __('Created at'),
+            __('Modified at')
         ];
     }
 }
