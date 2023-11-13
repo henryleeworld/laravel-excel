@@ -2,7 +2,6 @@
 
 namespace App\Imports;
 
-use Illuminate\Support\Facades\Hash;
 use Maatwebsite\Excel\Concerns\ToModel;
 use Maatwebsite\Excel\Concerns\WithHeadingRow;
 use Maatwebsite\Excel\Concerns\WithBatchInserts;
@@ -21,7 +20,7 @@ class UsersImport implements ToModel, WithHeadingRow, WithBatchInserts, WithChun
         return new User([
            'name'     => $row['name'],
            'email'    => $row['email'], 
-           'password' => Hash::make($row['password']),
+           'password' => $row['password'],
         ]);
     }
 
