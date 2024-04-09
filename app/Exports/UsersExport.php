@@ -25,7 +25,7 @@ class UsersExport implements FromCollection, WithHeadings
             __('Email'),
             __('Password'),
             __('Created at'),
-            __('Modified at')
+            __('Updated at')
         ];
     }
 }

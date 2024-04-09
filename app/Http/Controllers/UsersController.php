@@ -10,9 +10,9 @@ class UsersController extends Controller
 {
     public function import() 
     {
-        Excel::import(new UsersImport, public_path('uploads/users.xlsx'));
-        
-        return redirect('/')->with('success', __('All good!'));
+        // set_time_limit(300);
+        Excel::import(new UsersImport, storage_path('files/users.xlsx'));
+        echo __('Imported successfully') . PHP_EOL;
     }
 
     public function export() 
